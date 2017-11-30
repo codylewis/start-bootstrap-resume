@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ * Start Bootstrap - Resume v0.1 ()
+ * Copyright 2013-2017 Cody Lewis
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume-wordpress-theme/blob/master/LICENSE)
  */
 body {
   font-family: 'Open Sans', serif;
@@ -40,14 +40,26 @@ h2 {
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
-    color: #BD5D38; }
+    color: #008080; }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
 
 .list-icons {
   font-size: 3rem; }
-  .list-icons .list-inline-item i:hover {
-    color: #BD5D38; }
+  .list-icons .list-inline-item i:not(.grayscale):hover {
+    color: #008080; }
+  .list-icons .list-inline-item i.grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%); }
+    .list-icons .list-inline-item i.grayscale:hover {
+      -webkit-filter: none;
+      -moz-filter: none;
+      -o-filter: none;
+      -ms-filter: none;
+      filter: none; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
@@ -104,12 +116,12 @@ section.resume-section {
     padding-bottom: 3rem !important; } }
 
 .bg-primary {
-  background-color: #BD5D38 !important; }
+  background-color: #008080 !important; }
 
 .text-primary {
-  color: #BD5D38 !important; }
+  color: #008080 !important; }
 
 a {
-  color: #BD5D38; }
+  color: #008080; }
   a:hover, a:focus, a:active {
-    color: #824027; }
+    color: #003434; }

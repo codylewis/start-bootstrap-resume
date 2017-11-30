@@ -54,9 +54,21 @@ h2 {
 
 .list-icons {
   font-size: 3rem;
-  .list-inline-item i {
+  .list-inline-item i:not(.grayscale):hover {
+    color: $primary;
+  }
+  .list-inline-item i.grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
     &:hover {
-      color: $primary;
+      -webkit-filter: none;
+      -moz-filter: none;
+      -o-filter: none;
+      -ms-filter: none;
+      filter: none;
     }
   }
 }

@@ -1,30 +1,18 @@
 {
   "title": "Resume",
-  "name": "startbootstrap-resume",
-  "version": "4.0.0-beta.2",
-  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "name": "startbootstrap-resume-wordpress-theme",
+  "version": "0.1",
   "keywords": [
     "css",
     "sass",
     "html",
     "responsive",
     "theme",
-    "template"
+    "template",
+    "wordpress"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/resume",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-    "email": "feedback@startbootstrap.com"
-  },
   "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
-  },
+  "author": "Cody Lewis",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "devicons": "^1.8.0",
